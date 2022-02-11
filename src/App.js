@@ -1,13 +1,14 @@
-import './App.css';
+import React from "react";
+import "./App.css";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Home from "./Home";
+import Header from "./Header";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Welcome to Amazon clone :rocket:</h1>
-      </header>
+    <div className="app">
+      <Header />
     </div>
   );
 }
-
 export default App;
